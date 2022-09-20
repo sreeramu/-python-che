@@ -7,7 +7,7 @@ components:
       image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
       volumeMounts:
         - name: venv
-          path: /home/user/.venv
+          path: /data/home/srk/.venv
       memoryLimit: 512Mi
       mountSources: true
 
